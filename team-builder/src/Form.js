@@ -32,7 +32,7 @@ export default function Form(props) {
             placeholder="name" 
             onChange={handleChanges}
             value={member.name}
-            />
+            /><br/>
             <label htmlFor="email">Email</label>
             <input 
             id="email" 
@@ -41,7 +41,7 @@ export default function Form(props) {
             placeholder="email" 
             onChange={handleChanges}
             value={member.email}
-            />
+            /> <br/>
             <label htmlFor="name">Role</label>
             <input 
             id="role" 
@@ -50,7 +50,7 @@ export default function Form(props) {
             placeholder="role" 
             onChange={handleChanges}
             value={member.role}
-            />
+            /><br/>
 
             <button type="submit">Add Member</button>
 
